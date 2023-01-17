@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
 
-            string maxString = GenericsTestMax.MaxStringValue("Peach", "Apple", "Banana");
-            Console.WriteLine("\n Maximum string value for 1st position is = " + maxString);
+            string maxString = GenericsTestMax.MaxStringValue( "Apple", "Peach", "Banana");
+            Console.WriteLine("\n Maximum string value for 2nd position is = " + maxString);
         }
     }
 }
