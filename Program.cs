@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
 
-            int maxNumber = GenericsMax.MaxIntNumber(154, 200, 900);
-            Console.WriteLine("\n Maximum Number is " + maxNumber);
+            double maxFlotingNo = GenericsMax.MaxIntNumber(85.4, 17.6, 19.0);
+            Console.WriteLine("\n Maximum floating number for 1st position is = " + maxFlotingNo);
         }
     }
 }
