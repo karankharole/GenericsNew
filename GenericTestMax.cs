@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace GenericsNew
 {
 
+
     public class GenericsMax
     {
         public static int MaxIntNumber(int firstNum, int secondNum, int thirdNum)
