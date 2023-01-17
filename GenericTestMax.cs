@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GenericsNew
 {
-    public class GenericsMax
+    public class GenericsTestMax
     {
-        public static double MaxIntNumber(double firstNum, double secondNum, double thirdNum)
+        public static string MaxStringValue(string firstNum, string secondNum, string thirdNum)
         {
             if (firstNum.CompareTo(secondNum) > 0 && firstNum.CompareTo(thirdNum) > 0 || firstNum.CompareTo(secondNum) >= 0 && firstNum.CompareTo(thirdNum) > 0 || firstNum.CompareTo(secondNum) > 0 && firstNum.CompareTo(thirdNum) >= 0)
             {
@@ -24,7 +24,7 @@ namespace GenericsNew
             {
                 return thirdNum;
             }
-            return firstNum;
+            return secondNum;
         }
     }
 
